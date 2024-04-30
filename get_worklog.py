@@ -1,7 +1,7 @@
 import csv
 import sys
 from datetime import datetime
-from jira import JIRA
+from jira import JIRA #remember to install JIRA library "pip install jira"
 
 # Define your JIRA credentials
 JIRA_URL = 'https://your_org.atlassian.net/'
